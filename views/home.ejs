@@ -1,0 +1,265 @@
+<% include partials/header %>
+<!-- Landing Screen-->
+
+<div id="particles-home" class="fs bg-primary-dark">
+    <div class="cont text-center">
+        <div class="tab pt-2 container">
+            <div class="pt-5 mt-5 ht">Bitcoin Cloud Mining System</div>
+            <p class="lead">
+                <h5 id="lowH">The Best Earning Bitcoin Mining System.</h5>
+            </p>
+
+            <p class="lead ltext"><span style="font-weight: 400 !important;">LIMITED OFFER:</span> REGISTER NOW AND GET
+                50 GH/S FOR FREE! INVITE</p>
+            <p class="lead lm ltext">YOUR FRIENDS, GET 2 GH/S AND 25% OF THEIR MINING HASHPOWER.</p>
+            <a class="btn btn-primary btn-lg mt-5 mb-9" href="#features" role="button">Explore Features</a>
+            <a class="siup btn sup btn-primary btn-lg mt-5 mb-9 <% if(currentUser){ %>disabled<% } %>" href="/register"
+                role="button">Sign-Up</a>
+        </div>
+    </div>
+</div>
+
+<!---Features-->
+<span id="features">
+    <div class="container ft pt-5 pb-5">
+        <h6 class="text-center text-muted tsmall">200.000+ REASONS TO CHOOSE US</h6>
+        <h3 class="text-center section-title mb-5">Why choose us?</h3>
+        <div class="row my-5 pt-5">
+            <div class="col-lg-4 border border-faded border-top-0 border-left-0 feature-icon text-center">
+                <img class="imp img-fluid my-5 ic" src="icons/bit.png"></img>
+                <h4>EASY AND FAST INVESTMENT</h4>
+                <div class="smLine"></div>
+                <p class="tsmall">
+                    Once you make a payment on Hashlite system, it will be appear on your account without any
+                    verification
+                    and updates your hash power, and starts mining
+                </p>
+            </div>
+            <div class="col-lg-4 feature-icon border border-faded border-left-0 border-top-0 text-center">
+                <img class="img img-fluid my-5 ic" src="icons/dol.png"></img>
+                <h4>INSTANT WITHDRAWAL</h4>
+                <div class="smLine"></div>
+                <p class="tsmall">
+                    Enter the amount to withdraw and receive it instantly
+                </p>
+            </div>
+            <div class="col-lg-4 feature-icon border border-faded border-left-0 border-top-0 border-right-0 text-center">
+                <img class="img img-fluid my-5 ic" src="icons/calculator.png">
+
+                <h4>FIXED FEES</h4>
+                <div class="smLine"></div>
+                <p class="tsmall">
+                    No hidden fees or comissions.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Features contd.-->
+    <div class="container-fluid ftd mt-5 py-5 bg-primary-dark">
+        <div class="row ml-auto">
+            <div class="col-lg-5">
+                <h6 class="section-subtitle sec-sub text-white">YOU WONT REGRET IT</h6>
+                <h2 class="text-white">The best earning bitcoin mining system</h2>
+                <span class="txsmall">
+                    <p class="text-white-gray">
+                        Our service makes mining Cryptocurrency accessible to everyone. No longer it is required to buy
+                        expensive equipment and waste your time on setting it up. Simply select the desired power and
+                        generate revenue!
+                    </p>
+                </span>
+                <ul class="list-unstyled feature-list text-white-gray">
+                    <li><span class="lnr lnr-checkmark-circle bl"></span> 200000 and more active users</li>
+                    <li><span class="lnr lnr-checkmark-circle bl"></span> 1000+ Mining Servers</li>
+                    <li><span class="lnr lnr-checkmark-circle bl"></span> 12 BTC Daily Rotating</li>
+                    <li><span class="lnr lnr-checkmark-circle bl"></span> 24/7 Fast Support</li>
+                </ul>
+            </div>
+            <div class="col-lg-5">
+                <img class="imghas" src="hasfea.png">
+            </div>
+
+        </div>
+    </div>
+</span>
+
+
+<!---Pricing-->
+<div id="pricing" class="greybg">
+
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+
+        <p class="text-dark-gray text-center" style="font-size: 18px; letter-spacing: -.5px !important; color: rgba(70, 73, 92, 0.5) !important;">These
+            Rates are average values. Your hashpower will be automatically calculated depending on your BTC investment.
+            So you can invest whatever you want.</p>
+    </div>
+
+    <div class="container">
+        <div class="card-deck card-no-shadow mb-3 text-center">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card cs mb-4 shadow-sm">
+
+                        <h4 class="my-4 cardhead font-weight-normal">PLATINUM SERVER</h4>
+
+                        <div class="card-body">
+                            <h1 class="card-title price-value pricing-card-title"><img class="mr-2 icon-small" src="icons/bit.png"><span
+                                    class="value">0.05</span><small class="tsmall tg text-muted">/year</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li class="liI1"><img class="ico" src="icons/check.png">13180 Gh/s</li>
+                                <li class="liI1"><img class="ico" src="icons/check.png">1 Year contract</li>
+                                <li class="liI1"><img class="ico" src="icons/check.png">Guarantee profits</li>
+                                <li class="liI1"><img class="ico" src="icons/check.png">OVH, DigitalOcean, Scaleway
+                                    Servers</li>
+                                <li class="liI1"><img class="ico" src="icons/check.png">Nicelash, Minergate Mine System</li>
+                                <li class="liI1"><img class="ico" src="icons/check.png">Instant mining</li>
+                                <li class="liI1"><img class="ico" src="icons/check.png">No Maintance Free</li>
+                                <li class="liI1"><img class="ico" src="icons/check.png"><b>Monthly Profit:</b>-0.03586BTC</li>
+
+                            </ul>
+                            <a href="/register" class="siup btn btn-lg btn-primary <% if(currentUser){ %>disabled<% } %>">SIGN-UP</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cc card mb-4 shadow-sm text-white">
+                        <div class="card-header">
+                            <span class="badge sec-sub thin badge-default bg-white mb-4 mt-3">Best Value</span>
+                            <h4 class="my-0 font-weight-normal">EXTREME SERVER</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title"><img class="icon-small mr-2" src="icons/bit.png"></img><span
+                                    class="value text-white">0.1</span> <small class="tsmall tg text-muted">/year</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li class="liI2"><img class="ico" src="icons/check2.png">26806 Gh/s</li>
+                                <li class="liI2"><img class="ico" src="icons/check2.png">1 Year contract</li>
+                                <li class="liI2"><img class="ico" src="icons/check2.png">Guarantee profits</li>
+                                <li class="liI2"><img class="ico" src="icons/check2.png">OVH, DigitalOcean, Scaleway
+                                    Servers</li>
+                                <li class="liI2"><img class="ico" src="icons/check2.png">Nicehash, Minergate Mine
+                                    System</li>
+                                <li class="liI2"><img class="ico" src="icons/check2.png">Instant mining</li>
+                                <li class="liI2"><img class="ico" src="icons/check2.png">No Maintance Fee</li>
+                                <li class="liI2"><img class="ico" src="icons/check2.png"><b>Monthly Profit:</b>
+                                    ~0.068406
+                                    BTC</li>
+
+
+                            </ul>
+                            <a href="/register" class="siup btn btn-lg btn-primary <% if(currentUser){ %>disabled<% } %>">SIGN-UP</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card cs mb-4 shadow-sm">
+
+                        <h4 class="my-4 cardhead font-weight-normal">DIAMOND SERVER</h4>
+
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title"><img class="icon-small mr-2" src="icons/bit.png"><span
+                                    class="value">1</span> <small class="tsmall tg text-muted">/year</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li class="liI1"><img class="ico" src="icons/check.png">263333 Gh/s</li>
+                                <li class="liI1"><img class="ico" src="icons/check.png">1 Year contract</li>
+                                <li class="liI1"><img class="ico" src="icons/check.png">Guarantee profits</li>
+                                <li class="liI1"><img class="ico" src="icons/check.png">OVH, DigitalOcean, Scaleway
+                                    Servers</li>
+                                <li class="liI1"><img class="ico" src="icons/check.png">Nicehash, Minergate Mine System</li>
+                                <li class="liI1"><img class="ico" src="icons/check.png">Instant mining</li>
+                                <li class="liI1"><img class="ico" src="icons/check.png">No Maintance Fee</li>
+                                <li class="liI1"><img class="ico" src="icons/check.png"><b>Monthly Profit:</b>
+                                    ~0.671021
+                                    BTC</li>
+                            </ul>
+                            <a href="/register" class="siup btn btn-lg btn-primary <% if(currentUser){ %>disabled<% } %>">SIGN-UP</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div id="faqs" class="container">
+    <h6 class="text-center text-muted tsmall pb-5  mt-5 pt-5">OUR SUPPORT TEAM HELP YOU 24/7</h6>
+    <h1 class="text-center cardhead pb-5 mb40">Frequently asked questions
+        <div class="text-center blk"></div>
+    </h1>
+    <div class="row">
+        <div class="col-lg-4 mb40">
+            <h5 class="mb10 cardhead">What is HashLite </h5>
+            <span class="text-muted">Hashlite company that develops software for cloud mining and maintains equipment
+                in datacenters.</span>
+        </div>
+        <div class="col-lg-4 mb40">
+            <h5 class="mb10 cardhead">What cryptocurrencies can I mine with your service? </h5>
+            <span class="text-muted">HashLite provides cloud mining on the SHA-256 algorithms, which is used to mine
+                Bitcoins;</span>
+        </div>
+        <div class="col-lg-4 mb40">
+            <h5 class="mb10 cardhead">How long does the contract last?</h5>
+
+            <span class="text-muted">SHA-256 contracts last 1 year(365 days) and are not subject to maintenance and
+                electricity fees (MEF) - (BONUS).</span>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 mb40">
+            <h5 class="mb10 cardhead">Do you accept credit cards? </h5>
+            <span class="text-muted">No credit card required.</span>
+        </div>
+        <div class="col-lg-4 mb40">
+            <h5 class="mb10 cardhead">How to calculate estimated profit using hashrate?</h5>
+            <span class="text-muted">Profit is calculated via the deduction of expenses from income. The income
+                consists of daily payouts which size depends on the hashrate.</span>
+        </div>
+        <div class="col-lg-4 mb40">
+            <h5 class="mb10 cardhead">Withdrawals: currencies and commission fees</h5>
+            <span class="text-muted">Withdrawals for SHA-256 contracts are available in Bitcoin only. No maintance and
+                electricity fee.</span>
+        </div>
+    </div>
+
+</div>
+<!---Req quotes-->
+
+
+<div id="contactus" class="container pb-5">
+    <h6 class="text-center text-muted tsmall my-5 pt-5">FEEL FREE TO ASK ANY QUESTIONS</h6>
+    <h1 class="text-center cardhead">Request a quote</h1>
+    <div class="text-center blk mb-5"></div>
+    <div class="row">
+        <div class="col-lg-7">
+            <h5 class="disp">We’re Happy To Help You</h5>
+            <div class="lead">Our support team will be online 24/7 just for you!</div>
+        </div>
+        <div class="col-lg-4">
+            <form>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="email" name="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="4" placeholder="Message" name="message"></textarea>
+                </div>
+                <a href="mailto:rebads25@gmail.com" class="btn btn-primary btn-block">Send My Message</a>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="jumbotron jumbo2 jumbotron-fluid jumbo1">
+    <div class="container text-center">
+        <h2 class="display-4 text-center jumb mb40">You're working with a <br>geniune company</h2>
+        <a href="/register" class="siup btn btn-lg btn-primary mt-5 mb-9 <% if(currentUser){ %>disabled<% } %>">SIGN-UP</a>
+    </div>
+</div>
+
+<% include partials/footer %>
